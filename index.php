@@ -1,55 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="keywords" content="HTML5 Template" />
-<meta name="description" content="HTML5 Template" />
-<meta name="author" content="www.themeht.com" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-<title>Ahmad Emir Alfatah</title>
-
-<!-- favicon icon -->
-<link rel="shortcut icon" href="images/favicon.ico" />
-
-<!-- inject css start -->
-
-<!--== bootstrap -->
-<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-
-<link href="https://fonts.googleapis.com/css?family=Nunito:300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet"> 
-
-<!--== animate -->
-<link href="css/animate.css" rel="stylesheet" type="text/css" />
-
-<!--== fontawesome -->
-<link href="css/fontawesome-all.css" rel="stylesheet" type="text/css" />
-
-<!--== line-awesome -->
-<link href="css/line-awesome.min.css" rel="stylesheet" type="text/css" />
-
-<!--== magnific-popup -->
-<link href="css/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css" />
-
-<!--== owl-carousel -->
-<link href="css/owl-carousel/owl.carousel.css" rel="stylesheet" type="text/css" />
-
-<!--== base -->
-<link href="css/base.css" rel="stylesheet" type="text/css" />
-
-<!--== shortcodes -->
-<link href="css/shortcodes.css" rel="stylesheet" type="text/css" />
-
-<!--== default-theme -->
-<link href="css/style.css" rel="stylesheet" type="text/css" />
-
-<!--== responsive -->
-<link href="css/responsive.css" rel="stylesheet" type="text/css" />
-
-<!-- inject css end -->
-
-</head>
-
+<?php
+  include('template/head.php');
+?>
 <body>
 
 <!-- page wrapper start -->
@@ -75,113 +26,9 @@
 
 
 <!--header start-->
-
-<!-- <header id="site-header" class="header header-1">
-  <div class="container-fluid">
-    <div id="header-wrap" class="box-shadow">
-      <div class="row">
-        <div class="col-lg-12">
-          <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand logo" href="index.html">
-              <img id="logo-img" class="img-center" src="images/logo.png" alt="">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"> <span></span>
-              <span></span>
-              <span></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="nav navbar-nav ml-auto mr-auto">
-                <li class="nav-item"> <a class="nav-link active" href="#home">Home</a> 
-                </li>
-                <li class="nav-item"> <a class="nav-link" href="#about">About</a> 
-                </li>
-                <li class="nav-item"> <a class="nav-link" href="#service">Services</a> 
-                </li>
-                <li class="nav-item"> <a class="nav-link" href="#team">Team</a> 
-                </li>
-                <li class="nav-item"> <a class="nav-link" href="#pricing">Pricing</a> 
-                </li>
-                <li class="nav-item"> <a class="nav-link" href="#blog">Blog</a> 
-                </li>
-                <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#">Pages</a>
-                  <ul class="dropdown-menu">
-                   <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#">About Us</a>
-                      <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="about-us.html">About Us 1</a>
-                        </li>
-                        <li><a class="dropdown-item" href="about-us-2.html">About Us 2</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#">Services</a>
-                      <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="services.html">Service 1</a>
-                        </li>
-                        <li><a class="dropdown-item" href="services-2.html">Service 2</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li><a class="dropdown-item" href="team.html">Team</a>
-                    </li>
-                    <li><a class="dropdown-item" href="team-single.html">Team Single</a>
-                    </li>
-                    <li><a class="dropdown-item" href="faq.html">Faq</a>
-                    </li>
-                    <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#">Blogs</a>
-                      <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="blog-grid-2.html">Blog Grid 2</a>
-                        </li>
-                        <li><a class="dropdown-item" href="blog-left-sidebar.html">Blog Left Sidebar</a>
-                        </li>
-                        <li><a class="dropdown-item" href="blog-right-sidebar.html">Blog Right Sidebar</a>
-                        </li>
-                        <li><a class="dropdown-item" href="blog-single.html">Blog Single</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#">Element</a>
-                      <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="shortcode-accordions.html">Accordion</a>
-                        </li>
-                        <li><a class="dropdown-item" href="shortcode-blog-post.html">Blog Post</a>
-                        </li>
-                        <li><a class="dropdown-item" href="shortcode-counter.html">Counter</a>
-                        </li>
-                        <li><a class="dropdown-item" href="shortcode-feature-box.html">Featured Box</a>
-                        </li>
-                        <li><a class="dropdown-item" href="shortcode-pricing.html">Pricing Table</a>
-                        </li>
-                        <li><a class="dropdown-item" href="shortcode-team.html">Team</a>
-                        </li>
-                        <li><a class="dropdown-item" href="shortcode-testimonial.html">Testimonials</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#">Contact us</a>
-                      <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="contact.html">Contact 1</a>
-                        </li>
-                        <li><a class="dropdown-item" href="contact-2.html">Contact 2</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li><a class="dropdown-item" href="coming-soon.html">Coming Soon</a>
-                    </li>
-                    <li><a class="dropdown-item" href="error-404.html">Error 404</a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-            <a class="btn btn-theme btn-sm" href="login.html" data-text="Login"> <span>L</span><span>o</span><span>g</span><span>i</span><span>n</span>
-          </a>
-          </nav>
-        </div>
-      </div>
-    </div>
-  </div>
-</header> -->
-
+<?php
+  // include('template/navbar.php');
+?>
 <!--header end-->
 
 
@@ -223,7 +70,7 @@
         <div class="team-description">
           <h2 class="title z-index-1 mb-2">Ahmad Emir Alfatah</h2> 
           <h6 class="text-theme">Backend Engineer PudingLab</h6> 
-          <p class="lead mb-3 text-black">I am a type of hard worker, diligent and confident person in doing everything. In learning I have a high spirit, meticulous and quick to understand, especially learning new things. I am able to work under pressure and can work with various parties in one job. In my group I was able to build good communication and create good cooperation, also able to accept constructive criticism and suggestions.</p>
+          <p class="lead mb-3 text-black">I am a type of hard worker, diligent and confident person. In learning I have a high spirit, meticulous and quick to understand, especially learning new things. I am able to work under pressure and can work with various parties in one job. In my group I was able to build good communication and create good cooperation, also able to accept constructive criticism and suggestions.</p>
           <!-- <p class="mb-4">consectetur adipisicing eli. Vero quod conseqt quibusdam enim expedita sed quia nesciunt incidunt accusamus necessitatibus modi adipisci officia libero accusantium esse hic obcaecati.</p> -->
           <ul class="team-icon list-inline mb-4">
             <li class="mr-3 list-inline-item"> <i class="flaticon-email"></i>
@@ -235,17 +82,13 @@
           </ul>
           <div class="social-icons social-colored circle team-social-icon">
             <ul>
-              <!-- <li class="social-facebook"><a href="#"><i class="fab fa-facebook-f"></i></a>
+              <li class="social-instagram"><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/aemiralfath/"><i class="fab fa-instagram"></i></a>
               </li>
-              <li class="social-twitter"><a href="#"><i class="fab fa-twitter"></i></a>
+              <li class="social-twitter"><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/aemiralfath"><i class="fab fa-twitter"></i></a>
               </li>
-              <li class="social-gplus"><a href="#"><i class="fab fa-google-plus-g"></i></a>
-              </li> -->.
-              <li class="social-instagram"><a href="https://www.instagram.com/aemiralfath/"><i class="fab fa-instagram"></i></a>
+              <li class="social-linkedin"><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/ahmad-emir-alfatah/"><i class="fab fa-linkedin-in"></i></a>
               </li>
-              <li class="social-linkedin"><a href="https://www.linkedin.com/in/ahmad-emir-alfatah/"><i class="fab fa-linkedin-in"></i></a>
-              </li>
-              <li class="social-github"><a href="https://github.com/Criptdestroyer"><i class="fab fa-github"></i></a>
+              <li class="social-github"><a target="_blank" rel="noopener noreferrer" href="https://github.com/Criptdestroyer"><i class="fab fa-github"></i></a>
               </li>
             </ul>
           </div>
@@ -323,48 +166,33 @@
           </div>
         </div>
       </div>
+
       <div class="col-lg-6 col-md-12 md-mt-5">
         <div class="row">
-          <div class="col-lg-6 col-md-6">
+          <div class="col-lg-6 col-md-6 mt-4">
             <div class="featured-item style-3">
               <div class="featured-icon">
                 <img class="img-center" src="images/feature/06.png" alt="">
               </div>
               <div class="featured-title">
-                <h5>Systems Thinking</h5>
+                <h5>System Thinking</h5>
               </div>
               <div class="featured-desc">
                 <p>I'm good at thinking abstractly, planning system development and putting together system.</p>
               </div>
             </div>
           </div>
-          <!-- <div class="col-lg-6 col-md-6 mt-4">
-            <div class="featured-item style-3">
-              <div class="featured-icon">
+          <!-- 
                 <img class="img-center" src="images/feature/07.png" alt="">
-              </div>
-              <div class="featured-title">
                 <h5>Drag And Drop</h5>
-              </div>
-              <div class="featured-desc">
                 <p>Design must be functional, and futionality must translated into.</p>
-              </div>
-            </div>
-          </div> -->
+           -->
           
-          <!-- <div class="col-lg-6 col-md-6 mt-4">
-            <div class="featured-item style-3">
-              <div class="featured-icon">
+          <!-- 
                 <img class="img-center" src="images/feature/09.png" alt="">
-              </div>
-              <div class="featured-title">
                 <h5>Helping Support</h5>
-              </div>
-              <div class="featured-desc">
                 <p>Design must be functional, and futionality must translated into.</p>
-              </div>
-            </div>
-          </div> -->
+           -->
           <div class="col-lg-6 col-md-6 mt-4">
             <div class="featured-item style-3">
               <div class="featured-icon">
@@ -378,6 +206,7 @@
               </div>
             </div>
           </div>
+
           <div class="col-lg-6 col-md-6 mt-4">
             <div class="featured-item style-3">
               <div class="featured-icon">
@@ -391,7 +220,8 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-6 col-md-6 sm-mt-3">
+
+          <div class="col-lg-6 col-md-6 mt-4">
             <div class="featured-item style-3">
               <div class="featured-icon">
                 <img class="img-center" src="images/feature/08.png" alt="">
