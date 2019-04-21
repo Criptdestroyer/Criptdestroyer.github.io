@@ -492,6 +492,8 @@
     </div>
   </div>
 </section>
+
+
 <section class="pos-r bg-effect o-hidden">
     <div class="container">
       <div class="row align-items-center">
@@ -524,6 +526,32 @@
       </div>
     </div>
   </section>
+  <section class="pos-r bg-effect o-hidden">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-12 col-md-12">
+          <div class="section-title">
+            <div class="title-effect">
+              <div class="bar bar-top"></div>
+              <div class="bar bar-right"></div>
+              <div class="bar bar-bottom"></div>
+              <div class="bar bar-left"></div>
+            </div>
+            <h2 class="title">Github Overview</h2>
+          </div>
+          <div class="row align-items-center">
+		<!-- Prepare a container for your calendar. -->
+		<div class="calendar">
+    		<!-- Loading stuff -->
+    			Loading the data just for you.
+		</div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
 <!--testimonial style-5 start-->
 
 <section class="pos-r o-hidden bg-effect right" data-bg-img="images/pattern/01.png">
@@ -964,6 +992,20 @@
 <script src="js/theme-script.js"></script>
 <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 
+<script
+  src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"
+>
+</script>
+
+<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+<link
+  rel="stylesheet"
+  href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css"
+/>
+
+<script>
+    new GitHubCalendar(".calendar", "Criptdestroyer");
+</script>
 
 <!-- inject js end -->
 
